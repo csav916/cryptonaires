@@ -1,4 +1,7 @@
-from question import Question
+class Question:
+    def __init__(self, que, answer):
+        self.que = que
+        self.answer = answer
 
 q_a = [
 '1. When was Bitcoin created \n a) 1991\n b) 2008\n c) 1988\n d) 2009\n\n',
